@@ -64,6 +64,25 @@ for i in range(0,2000,1):
 turtle.Screen().exitonclick()
 ```
 
+> Também foi possível criar uma aspiral quadrada
+
+<p align="center">
+    <img src="img/sasssas.gif">
+</p>
+
+```javascript
+import turtle
+
+turtle.pensize(3)
+
+for i in range(0,500,20):
+    turtle.forward(i)
+    turtle.left(90)
+
+turtle.Screen().exitonclick()
+```
+
+
 >Código fractal floco de neve
 
  Em resumo, o código define as variáveis necessárias para gerar um fractal.
@@ -71,8 +90,6 @@ turtle.Screen().exitonclick()
  especifica a cadeia inicial. As variáveis "chr_1" e "rule_1" especificam a regra de substituição que será
  usada para gerar a cadeia de caracteres do fractal. A variável "step" especifica o comprimento da linha que a cadeia de caracteres do fractal. 
 
-<p align="center">
-    <img src="img/triangulo.gif">
 </p>
 
 ```javascript
